@@ -57,6 +57,7 @@ body {
 /* Cabeçalho */
 header {
     background-color: var(--primary-color);
+    color: var(--dark-color);
     padding: 20px 0;
     position: sticky;
     top: 0;
@@ -75,6 +76,14 @@ header .container {
     font-weight: 700;
     color: var(--dark-color);
     text-transform: uppercase;
+}
+
+
+.logo-svg {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .logo p {
@@ -103,9 +112,8 @@ nav ul li a:hover {
     color: var(--white);
 }
 
-/* Hero Section */
-.hero {
-    background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url('https://images.unsplash.com/photo-1515595967223-f9fa59af5a3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') center/cover;
+/* Hero Section *.hero {
+    background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url(\'https://via.placeholder.com/1920x1080/FDD835/212121?text=Maio+Amarelo\') center/cover;
     height: 80vh;
     display: flex;
     align-items: center;
